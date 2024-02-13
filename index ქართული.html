@@ -21,9 +21,19 @@
     <nav>
         <div class="container">
             <ul>
-                <li id="li"><a href="/index.html">About</a></li>
-                <li id="li"><a href="/პორთფოლიო.html">Portfolio</a></li>
-                <li id="li"><a href="/contact.html">Contact</a></li>
+                <li id="li"><a href="/index.html">მთავარი</a></li>
+                <li id="li"><a href="/პორთფოლიო.html">პორთფოლიო</a></li>
+                <li id="li"><a href="/contact.html">კონტაქტი</a></li>
+                <div class="dropdown-container gio" >
+                    <select id="dropdown" name="dropdown" onchange="window.location.href=this.value">
+                        <option value="#" selected disabled >ქართული</option>
+                        <option value="/index.html">ქართული</option>
+                      <option value="/index%20ინგლისური.html">English</option>
+                      <option value="/index%20რუსული.html">Русский</option>
+                      <!-- Add more options as needed -->
+                    </select>
+                  </div>
+                
             </ul>
         </div>
     </nav>

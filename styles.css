@@ -212,3 +212,48 @@ nav a:hover {
     margin-left: 100px;
     margin-top: -80px ;
   }
+
+  .dropdown-container {
+    text-align: center;
+  }
+
+  label {
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    appearance: none; /* Remove default arrow in some browsers */
+    -webkit-appearance: none; /* Remove default arrow for older browsers */
+  }
+
+  select:hover,
+  select:focus {
+    border-color: #888;
+  }
+
+  /* Style the dropdown arrow */
+  select::after {
+    content: '\25BC'; /* Unicode character for down arrow ▼ */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none; /* Ensure the arrow is not clickable */
+  }
+
+  .gio{
+    float: right;
+   margin-top: 6.5px;
+   margin-left: 20px;
+  }
+
+ 
